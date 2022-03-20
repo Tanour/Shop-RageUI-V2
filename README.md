@@ -8,7 +8,7 @@ Script Supérette :
 
 C'est ma première création soyez indulgents.
 
-Si vous avez des suggestions de scripts que je pourrais faire ou autres → Tanour#5954
+Si vous avez des suggestions de scripts que je pourrais faire, des retours ou autres → Tanour#5954
 
 Comment l'installer ?
 
