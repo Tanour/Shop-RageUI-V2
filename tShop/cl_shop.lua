@@ -61,7 +61,6 @@ function shopTanour()
 
 			RageUI.IsVisible(subMenu,function()
 
-                if #Config.Categories.Nourriture ~= 0 then 
                 RageUI.Separator("↓ Liste des Nourritures ↓")
 
                 for k, v in pairs(Config.Categories.Nourriture) do 
@@ -71,13 +70,10 @@ function shopTanour()
                     end,
 				})
             end
-        else
-			
-			end
+   
         end)
         
         RageUI.IsVisible(subMenu2,function()
-            if #Config.Categories.Nourriture ~= 0 then 
             RageUI.Separator("↓ Liste des Boissons ↓")
 
             for k, v in pairs(Config.Categories.Boissons) do 
@@ -87,14 +83,11 @@ function shopTanour()
 	
                     end,
 				})
-            end
-        else
-		end	
+            end	
         end)
 
         RageUI.IsVisible(subMenu3,function()
 
-            if #Config.Categories.Divers ~= 0 then 
             RageUI.Separator("↓ Liste des Objets Divers ↓")
 
             for k, v in pairs(Config.Categories.Divers) do 
@@ -103,9 +96,6 @@ function shopTanour()
                    TriggerServerEvent('shoptanour:BuyPain',v.name, v.label, v.price)
                 end,
             })
-        end
-    else
-        
         end
     end)
 
