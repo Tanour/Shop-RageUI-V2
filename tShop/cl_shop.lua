@@ -124,18 +124,6 @@ Citizen.CreateThread(function()
         BeginTextCommandSetBlipName("STRING")
         AddTextComponentSubstringPlayerName("Boutique")
         EndTextCommandSetBlipName(blips)
-
-        -- Peds 
-        while not HasModelLoaded(v.pedModel) do
-            RequestModel(v.pedModel)
-            Wait(1)
-        end
-        Ped = CreatePed(2, GetHashKey(v.pedModel), v.pedPos, v.heading, 0, 0)
-        FreezeEntityPosition(Ped, 1)
-        TaskStartScenarioInPlace(Ped, v.pedModel, 0, false)
-        SetEntityInvincible(Ped, true)
-        SetBlockingOfNonTemporaryEvents(Ped, 1)
-    end
     while true do 
         local myCoords = GetEntityCoords(PlayerPedId())
         local nofps = false
