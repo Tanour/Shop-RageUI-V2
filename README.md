@@ -4,7 +4,7 @@ Script Supérette :
 - ESX
 - RageUI V2
 - Facile à Config
-- 0.01 en resmon
+- 0.00 en resmon
 
 C'est ma première création soyez indulgents.
 
