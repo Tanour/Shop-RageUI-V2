@@ -19,7 +19,7 @@ local subMenu2 = RageUI.CreateSubMenu(MainMenu, "Shop", "interaction")
 local subMenu3 = RageUI.CreateSubMenu(MainMenu, "Shop", "interaction")
 MainMenu.Display.Header = true 
 MainMenu.Closed = function()
-  open = true
+  open = false
 end
 
 --- FUNCTION OPENMENU ---
